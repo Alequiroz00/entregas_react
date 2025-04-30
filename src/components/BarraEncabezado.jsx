@@ -4,12 +4,14 @@ const BarraEncabezado = ()=>{
     return(
         <div className="top-bar">
             <div className="redes">
-                <img src="../assets/icons/src/assets/icons/—Pngtree—facebook white icon_3570425.png" alt="logo facebook blanco" />
-                <img src="" alt="logo instgram blanco" />
-                <img src="" alt="logo whatsapp blanco" />
+                <img src="../logo_facebook.png" alt="logo facebook blanco" />
+                <img src="../logo_instagram.png" alt="logo instgram blanco" />
+                <img src="../logo_whatsapp.png" alt="logo whatsapp blanco" />
             </div>
-            <img src="" alt="pin de ubicacion" />
-            <p>Cba, ARG</p>
+            <div className="location">
+                <img  src="../location_pin.png" alt="pin de ubicacion" />
+                <p>Cba, ARG</p>
+            </div>
         </div>
     )
 }
